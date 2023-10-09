@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  web:
+  # nombre de la aplicacion
+    container_name: AndromedaInsightProject
+    restart: no #always
+    build: .
+    ports:
+      - "8777:3000"
+    volumes:
+      - .:/usr/src/app
+ 
+      #comando para correr 
+      #docker-compose build
+      #docker-compose up
+      #docker ps
