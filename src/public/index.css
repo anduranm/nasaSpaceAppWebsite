@@ -246,6 +246,11 @@ iframe {
         text-decoration: none; /* Quita la subrayado predeterminado */
         font-size: 3vw;
       }
+
+      .titleVideoGame {
+        font-size: 5vw;
+        color: white;
+    }
 }
 
 
