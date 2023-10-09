@@ -51,6 +51,34 @@ div {
     text-align: -webkit-center;
 }
 
+/* video  */
+.video-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.video-wrapper {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre los videos */
+}
+
+.video-item {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre los videos */
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+}
+
+.titleVideoGame{
+    font-size: 1vw;
+    color: white;
+}
+/* fin video  */
+
 .limit {
     margin: 6vw 5vw 0 5vw;
 }
@@ -219,6 +247,8 @@ div {
         font-size: 3vw;
       }
 }
+
+
 
 @media (max-width: 600px) {
 
