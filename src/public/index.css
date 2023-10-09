@@ -92,7 +92,7 @@ iframe {
     /* Agrega otros estilos personalizados aquí si es necesario */
     /* height: 4vw; */
     /* Asegura que la posición sea relativa a un contenedor relativo o absoluto */
-    z-index: 9999;
+    z-index: 100;
     /* Un valor alto para asegurarse de que se superponga por encima de otros elementos */
     /* Otros estilos para la capa */
 }
