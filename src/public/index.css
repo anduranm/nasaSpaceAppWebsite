@@ -206,6 +206,11 @@ iframe {
   .linkClass{
     font-size: 1vw;
   }
+
+  .videoSize{
+    width: 17vw;
+    height: 15vw;
+  }
 /* ********************* division ************ */
 @media (max-width: 1000px) {
     .about-title {
@@ -259,6 +264,11 @@ iframe {
     .title{
         font-size: 4vw;
     }
+
+    .videoSize{
+        width: 33vw;
+        height: 32vw;
+      }
 }
 
 
